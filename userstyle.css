@@ -407,6 +407,27 @@ background: #191919 !important;
 
 }
 
+/* ---License footer fix---------------------------------------- */
+
+@-moz-document url("www.scp-wiki.net/main/html/b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516"), url("http://scp-wiki.wdfiles.com/local--html/main/b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516/www.scp-wiki.net/"){
+
+  body{
+    text-align: right;
+    color: #808080;
+    font-size: 14px;
+  }
+
+  a{
+    color: #901;
+  }
+
+  img{
+    float: left;
+    display: inline-block;
+  }
+
+}
+
 /* --- Fix for March Madness Hub page --- */
 
 @-moz-document url("http://www.scp-wiki.net/scpfmmdbc-hub"){

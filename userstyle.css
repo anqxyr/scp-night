@@ -228,10 +228,66 @@ background: #191919 !important;
 }
 /* ------------------------------------------------------------- */
 
-.post .head, .description-block {
+.post .head, .description-block, .description-block .head, .description-block .statistics {
   background: none !important;
   background-color: #808080 !important;
-  color: #191919;
+  color: #191919 !important;
+}
+
+.head .options a {
+  color: #942020 !important;
+}
+
+.panel-heading, .panel-footer{
+  color: #808080 !important;
+}
+
+.panel-heading, .panel-footer a{
+  color: #d0d0d0 !important;
+}
+
+.content-type-title, .content-type-description-2 table tbody tr:first-child{
+  color: #808080 !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  background: none !important;
+}
+
+/* slight fix because the links are too close to be easily readable */
+.forum-start-box .last > a{
+  margin-left: 4px;
+}
+
+.forum-start-box .head{
+  background-color: #191919 !important;
+  color: #808080 !important;
+}
+
+.forum-group table tr.head td, .forum-category-box table tr.head td{
+  background-color: #292929 !important;
+  border-color: #808080;
+}
+
+.forum-group table td, .forum-category-box table td{
+  border-color: #808080;
+}
+
+.new-post a{
+  background-color: #191919 !important;
+  border-color: #808080;
+}
+
+.mobile-top-bar .open-menu p a {
+  filter: invert(91.5%);
+}
+
+#account-options{
+  background-color: #090909;
+  color: #d01;
+}
+
+.section{
+  background: linear-gradient(to bottom, #222 0%, #222 50%, #333 50%, #333 100%);
 }
 
 .description-block {

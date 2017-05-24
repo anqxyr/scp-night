@@ -476,4 +476,18 @@ background: #191919 !important;
 
 }
 
+/* ---Page: "The parables of Pseudo-Nadox"---------------------- */
+
+@-moz-document url("http://www.scp-wiki.net/the-parables-of-pseudo-nadox") {
+
+  #page-content img[alt="the_horizon_initiative_by_sunnyparallax-d8i98ob.jpg"]{
+    filter: invert(87.5%);
+  }
+
+  #page-content div[style$="FFF;"]{
+    background-color: #222 !important;
+  }
+
+}
+
 /* --- */

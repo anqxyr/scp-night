@@ -273,6 +273,14 @@ background: #191919 !important;
 
 }
 
+/* ---Ensures that text meant to be invisible, stays invisible-- */
+
+	span[style*="color:white"]{
+		color: rgba(0,0,0,0) !important;
+	}
+
+/* --- */
+
 }
 
 /* ---Timer widget fix------------------------------------------ */

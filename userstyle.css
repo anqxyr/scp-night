@@ -490,4 +490,14 @@ background: #191919 !important;
 
 }
 
+/* ---Page: "Grant request for [...] science vessel"------------ */
+
+@-moz-document url("http://www.scp-wiki.net/grant-request-for-the-construction-of-an-interstellar-scienc") {
+
+  img[alt="DariusDrive4.png"]{
+    filter: invert(87.5%);
+  }
+
+}
+
 /* --- */

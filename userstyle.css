@@ -460,7 +460,7 @@ background: #191919 !important;
 
 /* --- Fix for March Madness Hub page --- */
 
-@-moz-document url("http://www.scp-wiki.net/scpfmmdbc-hub"){
+@-moz-document regexp("https?:\/\/(www\.scp-wiki\.net|scp-wiki\.wikidot\.com)\/scpfmmdbc-hub"){
   #page-content > div:before {
     content: " ";
     position: absolute;

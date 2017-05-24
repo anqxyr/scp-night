@@ -452,4 +452,18 @@ background: #191919 !important;
   }
 }
 
+/* ---Contest archive fix--------------------------------------- */
+
+@-moz-document regexp("https?:\/\/(www\.scp-wiki\.net|scp-wiki\.wikidot\.com)\/contest-archive"){
+
+  .content-type-description > table > tbody > tr:nth-child(even) > td{
+    background-color: #292929 !important;
+  }
+
+  .content-type-description > table > tbody > tr:nth-child(odd) > td{
+    background-color: #191919 !important;
+  }
+
+}
+
 /* --- */

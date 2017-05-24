@@ -274,3 +274,15 @@ background: #191919 !important;
 }
 
 }
+
+/* ---Timer widget fix------------------------------------------ */
+
+@-moz-document url-prefix("http://ferryfm13.thirteen.axc.nl/scp/timers/getTimer.php") {
+
+    #clock {
+        color: gold;
+    }
+
+}
+
+/* --- */

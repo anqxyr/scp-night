@@ -285,4 +285,22 @@ background: #191919 !important;
 
 }
 
+/* ---Search widget fix----------------------------------------- */
+
+@-moz-document regexp("https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/search.*scp-wiki\.net\/"),
+               regexp("https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/search.*scp-wiki\.wikidot\.com\/"){
+
+  body{
+    background-color: rgba(0,0,0,0) !important;
+    color: #808080 !important;
+  }
+
+  input{
+    color: #808080 !important;
+    background-color: #191919 !important;
+    border: 1px solid #808080 !important;
+  }
+
+}
+
 /* --- */

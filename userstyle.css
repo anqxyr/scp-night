@@ -500,4 +500,14 @@ background: #191919 !important;
 
 }
 
+/* ---Page: "Document 1780-WL"---------------------------------- */
+
+@-moz-document url("http://www.scp-wiki.net/document-1780-wl") {
+
+  img[alt="Signature%202.PNG"]{
+    filter: invert(88.5%);
+  }
+
+}
+
 /* --- */

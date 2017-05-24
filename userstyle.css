@@ -466,4 +466,14 @@ background: #191919 !important;
 
 }
 
+/* ---Page: "About the Serpent"--------------------------------- */
+
+@-moz-document url("http://www.scp-wiki.net/about-the-serpent") {
+
+  #page-content img[src$="gif"]{
+    filter: invert(87.5%);
+  }
+
+}
+
 /* --- */

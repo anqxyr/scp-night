@@ -421,7 +421,7 @@ background: #191919 !important;
 
 /* ---Search widget fix----------------------------------------- */
 
-@-moz-document regexp("https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/search.*scp-wiki\.(net|wikidot\.com)\/"){
+@-moz-document regexp("https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/search.*(scp-wiki|scpsandbox2)\.(net|wikidot\.com)\/"){
 
   body{
     background-color: rgba(0,0,0,0) !important;
@@ -439,7 +439,8 @@ background: #191919 !important;
 /* ---License footer fix---------------------------------------- */
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/main\/html\/b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516'),
-               regexp('https?:\/\/scp-wiki.wdfiles.com\/local--html\/main\/b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516\/www.scp-wiki.(net|\.wikidot\.com)\/'){
+               regexp('https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/main\/b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516\/www\.scp-wiki\.(net|\.wikidot\.com)\/'),
+               regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d15945223af54b75485a71d34523-4930967401480709276\/.*scpsandbox2\.wikidot\.com\/'){
 
   body{
     text-align: right;
@@ -460,7 +461,7 @@ background: #191919 !important;
 
 /* --- Fix for March Madness Hub page --- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/scpfmmdbc-hub'){
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scpfmmdbc-hub'){
   #page-content > div:before {
     content: " ";
     position: absolute;
@@ -484,7 +485,7 @@ background: #191919 !important;
 
 /* ---Contest archive fix--------------------------------------- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/contest-archive'){
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/contest-archive'){
 
   .content-type-description > table > tbody > tr:nth-child(even) > td{
     background-color: #292929 !important;
@@ -498,7 +499,7 @@ background: #191919 !important;
 
 /* ---Page: "About the Serpent"--------------------------------- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/about-the-serpent') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/about-the-serpent') {
 
   #page-content img[src$="gif"]{
     filter: invert(87.5%);
@@ -508,7 +509,7 @@ background: #191919 !important;
 
 /* ---Page: "The parables of Pseudo-Nadox"---------------------- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/the-parables-of-pseudo-nadox') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/the-parables-of-pseudo-nadox') {
 
   #page-content img[alt="the_horizon_initiative_by_sunnyparallax-d8i98ob.jpg"]{
     filter: invert(87.5%);
@@ -522,7 +523,7 @@ background: #191919 !important;
 
 /* ---Page: "Grant request for [...] science vessel"------------ */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/grant-request-for-the-construction-of-an-interstellar-scienc') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/grant-request-for-the-construction-of-an-interstellar-scienc') {
 
   img[alt="DariusDrive4.png"]{
     filter: invert(87.5%);
@@ -532,7 +533,7 @@ background: #191919 !important;
 
 /* ---Page: "Document 1780-WL"---------------------------------- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/document-1780-wl') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/document-1780-wl') {
 
   img[alt="Signature%202.PNG"]{
     filter: invert(88.5%);

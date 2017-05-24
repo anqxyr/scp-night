@@ -279,6 +279,22 @@ background: #191919 !important;
 		color: rgba(0,0,0,0) !important;
 	}
 
+/* ---Scorpion451's table fix----------------------------------- */
+
+  table.wiki-content-table th {
+    background-color: #777;
+    border: 1px solid #444;
+    color: #191919;
+    padding: 0.3em 0.7em;
+  }
+
+  table.wiki-content-table td {
+    background-color: #888;
+    border: 1px solid #444;
+    padding: 0.3em 0.7em;
+    color: #191919;
+  }
+
 /* --- */
 
 }

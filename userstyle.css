@@ -16,25 +16,25 @@
   }
 
   select {
-    background-color: #191919;
-    color: #942828;
-    border: 1px solid #808080;
     -moz-appearance: none;
     -webkit-appearance: none;
+    background-color: #191919;
     background-image: url("data:image/png;base64,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");
-    background-repeat: no-repeat;
-    background-position: 99% center;
-    background-size: 13px;
     background-origin: padding-box;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    border: 1px solid #808080;
+    color: #942828;
   }
 
   input[type="button"],
   input[type="submit"] {
-    border: 1px solid #808080;
     background-color: #191919;
-    padding: 0px 8px 0px 8px;
-    line-height: 19px;
+    border: 1px solid #808080;
     color: #942828;
+    line-height: 19px;
+    padding: 0 8px 0 8px;
   }
 
   input[type="text"] {
@@ -58,7 +58,7 @@
     color: #808080;
   }
 
-  div#container-wrap {
+  #container-wrap {
     background: url(http://scp-wiki.wdfiles.com/local--files/roget-s-workbench/header.png) top left repeat-x;
   }
 
@@ -76,8 +76,8 @@
   /* ------------------------------------------------------------- */
 
   #top-bar a {
-    color: #bbb;
     background: transparent;
+    color: #bbb;
   }
 
   #top-bar ul li.sfhover a,
@@ -106,35 +106,35 @@
   /* ------------------------------------------------------------- */
 
   .page-rate-widget-box {
+    color: #808080;
     display: inline-block;
     margin-bottom: 10px;
     margin-right: 2em;
-    color: #808080;
   }
 
   .page-rate-widget-box .rate-points {
     background-color: #191919 !important;
-    border: solid 1px #808080;
-    border-right: 0;
     border-radius: 5px 0 0 5px;
+    border-right: 0;
+    border: solid 1px #808080;
     color: #808080;
   }
 
   .page-rate-widget-box .rateup,
   .page-rate-widget-box .ratedown {
     background-color: #808080;
-    border-top: solid 1px #808080;
     border-bottom: solid 1px #808080;
-    font-weight: bold;
+    border-top: solid 1px #808080;
     color: #191919;
+    font-weight: bold;
   }
 
   .page-rate-widget-box .rateup a,
   .page-rate-widget-box .ratedown a {
     background: transparent;
     color: #191919;
-    padding: 0 4px;
     margin: 0 1px;
+    padding: 0 4px;
   }
 
   .page-rate-widget-box .rateup a:hover,
@@ -157,8 +157,8 @@
   }
 
   .page-rate-widget-box .cancel a:hover {
-    border-radius: 0 3px 3px 0;
     background: #191919;
+    border-radius: 0 3px 3px 0;
     color: #808080;
   }
 
@@ -178,15 +178,15 @@
     color: #808080;
   }
   #side-bar .collapsible-block-unfolded-link {
-    border-bottom: solid 1px #808080;
     background-color: #191919;
+    border-bottom: solid 1px #808080;
     color: #808080;
   }
   #side-bar .collapsible-block-unfolded-link .collapsible-block-link {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    color: #808080;
     background-color: #191919;
+    color: #808080;
+    margin-bottom: 5px;
+    margin-top: 10px;
   }
   #side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
     background-color: #191919;
@@ -209,23 +209,23 @@
   }
 
   .yui-navset .yui-nav .selected a {
-    background: none;
-    background-image: none;
     background-color: #191919;
+    background-image: none;
+    background: none;
     color: #A0A0A0;
   }
 
   .yui-navset .yui-nav a:focus {
-    background: none;
-    background-image: none;
     background-color: #191919;
+    background-image: none;
+    background: none;
     color: #101010;
   }
 
   .yui-navset .yui-nav a:hover {
-    background: none;
-    background-image: none;
     background-color: #808080;
+    background-image: none;
+    background: none;
     color: #101010;
   }
 
@@ -238,22 +238,22 @@
 
   blockquote {
     background-color: #808080;
-    color: #191919;
     border: 1px dashed #191919;
+    color: #191919;
   }
 
   /* ------------------------------------------------------------- */
 
   .content-panel {
     background-color: #191919 !important;
-    color: #808080 !important;
     box-shadow: none;
+    color: #808080 !important;
   }
 
   .content-toc {
     background-color: #808080 !important;
-    color: #191919 !important;
     border: none !important;
+    color: #191919 !important;
   }
 
   /* ------------------------------------------------------------- */
@@ -294,10 +294,10 @@
 
   .content-type-title,
   .content-type-description-2 table tbody tr:first-child {
-    color: #808080 !important;
+    background: none !important;
     border-radius: 2px !important;
     box-shadow: none !important;
-    background: none !important;
+    color: #808080 !important;
   }
 
   /* slight fix because the links are too close to be easily readable */
@@ -349,8 +349,8 @@
 
   .code {
     background-color: #808080;
-    color: #191919;
     border: 1px dashed #191919;
+    color: #191919;
   }
 
   #new-post-button {
@@ -395,8 +395,8 @@
   table.wiki-content-table td {
     background-color: #888;
     border: 1px solid #444;
-    padding: 0.3em 0.7em;
     color: #191919;
+    padding: 0.3em 0.7em;
   }
 
   /* ---Fix for main page panels---------------------------------- */
@@ -408,23 +408,23 @@
   .panel-body:before,
   .alternate:nth-child(even):before,
   .international-entry:nth-child(even):before {
-    content: " ";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    display: block;
     background: inherit;
-    width: 100%;
-    height: 100%;
+    content: " ";
+    display: block;
     filter: invert(91.5%) grayscale(100%);
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
   }
 
   .panel-body,
   .alternate:nth-child(even),
   .international-entry:nth-child(even) {
-    z-index: 0;
     position: relative;
+    z-index: 0;
   }
 
   /* --- */
@@ -449,9 +449,9 @@
   }
 
   input {
-    color: #808080 !important;
     background-color: #191919 !important;
     border: 1px solid #808080 !important;
+    color: #808080 !important;
   }
 }
 
@@ -462,9 +462,9 @@ regexp('https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/main\/b1d22cc85b51d15945
 regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d15945223af54b75485a71d34523-4930967401480709276\/.*scpsandbox2\.wikidot\.com\/') {
 
   body {
-    text-align: right;
     color: #808080;
     font-size: 14px;
+    text-align: right;
   }
 
   a {
@@ -472,8 +472,8 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 
   img {
-    float: left;
     display: inline-block;
+    float: left;
   }
 }
 
@@ -482,20 +482,20 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scpfmmdbc-hub') {
 
   #page-content>div:before {
-    content: " ";
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    display: block;
     background: inherit;
-    width: 100%;
-    height: 100%;
+    content: " ";
+    display: block;
     filter: invert(91.5%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
   }
   #page-content>div {
-    z-index: 0;
     position: relative;
+    z-index: 0;
   }
   #page-content #toc {
     background-color: #191919;

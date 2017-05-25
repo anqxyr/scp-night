@@ -3,8 +3,12 @@
 @-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/osanshouo).*') {
 
   /*
- 	 * Fix for extended rating information userscript
-   * on heritage rating modules
+ 	 * Fix for Real Rating Info userscript:
+   * http://www.scp-wiki.net/usertools#toc13
+   *
+   * Heritage rating module gets messed up
+   * so this fix is needed to restore it.
+   *
    */
 
   div.heritage-rating-module>div[style*="font-size: 8pt;"] {

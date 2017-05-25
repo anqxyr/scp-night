@@ -31,7 +31,7 @@ Userscript-related fixes:
 
 **Userscript**|**Link**|**Fixes**
 :-----:|:-----:|:-----:
-[Real Rating Info](http://www.scp-wiki.net/usertools#toc13)|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/userscript-extended-rating-information-fixes.css)|Heritage rating widget layout
+[Real Rating Info](http://www.scp-wiki.net/usertools#toc13)|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/userscript-real-rating-info-fixes.css)|Heritage rating widget layout
 
 Doing it through Stylish's menu allows automatic updates for those files. If that's _not_ what you want, then just download the repo and copy-paste the files into Stylish manually. For instructions on how to create a style that way, check Stylish's help. To download the repo, use the button on the top right.
 

@@ -14,8 +14,6 @@ Installing
 
 The recommended way to install the theme is from the above link on `userstyles.org`. This repo also has separate CSS files with optional font changes and fixes for SCP Wiki-related userscripts that can be used separately by manually importing them to Stylish. There are in the `css` direcotry.
 
-There is also an automatically built version of the theme that includes the above 2 files. It is in the `build` directory and must also be manually imported.
-
 Contributing
 ------------
 

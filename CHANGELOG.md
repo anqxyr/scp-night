@@ -42,7 +42,7 @@
   - Timer widget text color
   - Search widget theming
 
-## 1.0.0 - 2015-09-09
+## 1.0.0 - 2015-09-21
   - First public release
 
 ---

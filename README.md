@@ -7,7 +7,7 @@ Original by [LurkD](http://www.wikidot.com/user:info/lurkd), [anqxyr](http://www
 
 Original thread is [here](http://www.scp-wiki.net/forum/t-1353913/help-wanted) on the SCP Wiki.
 
-The complete list of contributors is in `CONTRIBUTING.md`.
+The complete list of contributors is in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 Installing
 ----------
@@ -40,7 +40,7 @@ These links use [RawGit](https://rawgit.com/) and as such there are no uptime gu
 Contributing
 ------------
 
-If you want to add a fix or add to the theme in general, read `CONTRIBUTING.md` first.
+If you want to add a fix or add to the theme in general, read [`CONTRIBUTING.md`](CONTRIBUTING.md) first.
 
 Reporting bugs and making suggestions
 -------------------------------------

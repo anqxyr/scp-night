@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.2 - 2017-05-25
+### Fixed
+  - Pages:
+    - <a href="http://www.scp-wiki.net/grant-request-for-the-construction-of-an-interstellar-scienc">"Grant request for [...] vessel"</a> added to exclusions since it has a complete style
+
 ## 1.1.1 - 2017-05-24
 ### Changed
   - Style reformatted for consistency

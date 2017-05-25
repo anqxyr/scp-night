@@ -9,8 +9,6 @@ Original thread is [here](http://www.scp-wiki.net/forum/t-1353913/help-wanted) o
 
 The complete list of contributors is in `CONTRIBUTING.md`.
 
-If you have questions, see if `FAQ.md` or the [wiki](https://github.com/anqxyr/scp-night/wiki) on the repo helps.
-
 Installing
 ----------
 

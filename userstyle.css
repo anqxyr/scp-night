@@ -8,7 +8,7 @@
  *
  */
 
-@-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/osanshouo).*') {
+@-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/(osanshouo|grant-request-for-the-construction-of-an-interstellar-scienc)).*') {
 
   #page-title,
   body {
@@ -538,6 +538,8 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
 }
 
 /* ---Page: "Grant request for [...] science vessel"------------ */
+/* ---No longer applies really, since the page has now been----- */
+/* ---added as an exclusion------------------------------------- */
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/grant-request-for-the-construction-of-an-interstellar-scienc') {
 

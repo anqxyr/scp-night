@@ -59,7 +59,7 @@
   }
 
   #container-wrap {
-    background: url(http://scp-wiki.wdfiles.com/local--files/roget-s-workbench/header.png) top left repeat-x;
+    background: url(http://scp-wiki.wdfiles.com/local--files/roget-s-workbench/header.png) top left repeat-x !important;
   }
 
   /* ------------------------------------------------------------- */

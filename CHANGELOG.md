@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.3 - 2017-05-25
+### Fixed
+  - Regression with header background image
+
 ## 1.1.2 - 2017-05-25
 ### Fixed
   - Pages:

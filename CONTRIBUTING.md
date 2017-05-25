@@ -25,12 +25,12 @@ _When in doubt, favor consistency with the rest of the file and clarity._
 
         /* ------------------------------------------------------------- */
 
-    - it is a css comment with 60 dashes contained and spaces at both ends
+    - it is a CSS comment with 60 dashes contained and spaces at both ends
     - if you need to add descriptive text, replace the dashes
       - spaces within text are ok, dashes are also ok
     - always have 3 dashes from the start
-    - if more than 54 characters are neede for text, make a new line with the same style
-    - for lengthly descriptions, use C-style comment blocks instead
+    - if more than 54 characters are needed for text, make a new line with the same style
+    - for lengthy descriptions, use C-style comment blocks instead
 
   - Section headers are like this:
 

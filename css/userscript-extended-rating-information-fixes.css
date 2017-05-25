@@ -1,0 +1,14 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/osanshouo).*') {
+
+  /*
+ 	 * Fix for extended rating information userscript
+   * on heritage rating modules
+   */
+
+  div.heritage-rating-module>div[style*="font-size: 8pt;"] {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}

@@ -1,4 +1,4 @@
-SCP-Wiki Night-Mode
+SCP Wiki Night Mode
 ===================
 
 This is the repository for the [SCP Wiki Night Mode](https://userstyles.org/styles/118617/scp-wiki-night-mode) userstyle. It is a dark, low-contrast theme for the SCP Wiki, intended to make it easier to read in the dark.
@@ -20,8 +20,8 @@ The recommended way to install the theme is from the [above link on `userstyles.
 
 This repo also has separate CSS files with optional font changes and fixes for SCP Wiki-related userscripts that can be used separately by manually importing them to Stylish. There are in the `css` directory. To install those:
   - Visit the link on the table that corresponds to the file you want
-  - From your Stylish toolbar button dropdown, select "Install File..."
-  - Stylish will tell you which urls the style affects and ask you for a name for the style. Give it a meaningful one. You can also preview the changes before you install the style.
+  - From your Stylish toolbar button drop-down, select "Install File..."
+  - Stylish will tell you which URLs the style affects and ask you for a name for the style. Give it a meaningful one. You can also preview the changes before you install the style.
 
 **Style addon**|**Link**|**Description**
 :-----:|:-----:|:-----:

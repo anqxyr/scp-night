@@ -33,7 +33,7 @@
 ### Fixed
   - Rule added to match `scp-wiki.wikidot.net` as well
   - Text intended to be invisible now stays invisible
-  - Made background of titles transparent to accomodate new background texture
+  - Made background of titles transparent to accommodate new background texture
   - Timer widget text color
   - Search widget theming
 

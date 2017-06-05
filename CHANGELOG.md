@@ -1,5 +1,36 @@
 # Change Log
 
+## 1.1.22 - 2017-06-05
+### Fixed
+  - Pages:
+    - ["A Wandsman in the Court of the Hanged King"](http://www.scp-wiki.net/a-wandsman-in-the-court-of-the-hanged-king)
+    - [The Gulf Canon Hub](http://www.scp-wiki.net/the-gulf)
+    - [Unfounded - Hub](http://www.scp-wiki.net/unfounded-hub)
+    - ["Elder Baconator"](http://www.scp-wiki.net/elder-baconator)
+    - ["Operation AZURE PEREGRINE"](http://www.scp-wiki.net/operation-azure-peregrine)
+    - [SCP-2897](http://www.scp-wiki.net/scp-2897)
+    - ["Conspiracy, Part I"](http://www.scp-wiki.net/conspiracy-part-i)
+    - ["Museum of Idiots"](http://www.scp-wiki.net/museum-of-idiots)
+    - [On Mount Golgotha - Hub](http://www.scp-wiki.net/on-mount-golgotha-hub)
+    - ["The Lord of Endowments"](http://www.scp-wiki.net/the-lord-of-endowments)
+    - [Resurrection](http://www.scp-wiki.net/resurrection)
+    - ["MEMORANDUM 083 REGARDING PROJECT "GUARDIANSHIP""](http://www.scp-wiki.net/memorandum-083-regarding-project-guardianship)
+  - Experimental fix for bad alpha in images (example: [SCP Artwork Hub](http://www.scp-wiki.net/scp-artwork-hub))
+  - Pure `blue` color spans, such as those at the bottom of some hub pages
+  - Experimental TOC fix. Element id `toc` was not matched before.
+
+### Removed
+  - Pages:
+    - Obsolete fix for <a href="http://www.scp-wiki.net/grant-request-for-the-construction-of-an-interstellar-scienc">"Grant request for [...] vessel"</a> since that page is now excluded entirely
+  - Exclusions from custom fonts style
+
+### Added
+  - Exclusions for all known theme templates, based on the `template` tag on the wiki
+
+### Changed
+  - Optional font styles:
+    - Duplicated into two versions: one has the same exclusions as the userstyle itself, the other has none, in case the font changes are desired but theme overriding is not
+
 ## 1.1.3 - 2017-05-25
 ### Fixed
   - Regression with header background image

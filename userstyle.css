@@ -658,4 +658,12 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "Resurrection"-------------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/resurrection') {
+  #page-content div[style*='#F5F5F5']{
+    background: #252525 !important;
+  }
+}
+
 /* --- */

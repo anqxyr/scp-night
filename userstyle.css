@@ -593,7 +593,7 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
-/* ---Page: "The Gulf Canon Hub--------------------------------- */
+/* ---Page: "Elder Baconator"----------------------------------- */
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/elder-baconator') {
   img[alt="blink.gif"]{

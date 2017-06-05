@@ -567,4 +567,14 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "A Wandsman in the Court of the Hanged King"-------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/a-wandsman-in-the-court-of-the-hanged-king') {
+  img[alt="0e6fayS.jpg"],
+  img[alt="7n5BvR1.jpg"],
+  img[alt="6G1MpLa.jpg"]{
+    filter: invert(88.5%);
+  }
+}
+
 /* --- */

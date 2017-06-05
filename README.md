@@ -26,6 +26,7 @@ This repo also has separate CSS files with optional font changes and fixes for S
 **Style addon**|**Link**|**Description**
 :-----:|:-----:|:-----:
 Fonts|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/fonts.css)|A different set of fonts for the wiki
+Fonts (with exclusions)|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/fonts-with-exclusions.css)|The custom fonts but not applied to pages using custom themes
 
 Userscript-related fixes:
 

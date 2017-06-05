@@ -256,6 +256,10 @@
     color: #191919 !important;
   }
 
+  #toc {
+    filter: invert(88.5%) hue-rotate(180deg) saturate(300%) brightness(75%);
+  }
+
   /* ------------------------------------------------------------- */
 
   .footnote,

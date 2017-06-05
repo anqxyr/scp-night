@@ -391,4 +391,13 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/(b1d22cc85b51d
   }
 }
 
+/* ---Helenbot tag search embed--------------------------------- */
+
+@-moz-document regexp('https?:\/\/home\.helenbot\.com\/tools\/tagSearch\.php') {
+  body {
+    font-family: "Fira Sans", "DejaVu Sans Condensed", verdana, arial, helvetica, sans-serif;
+    font-size: 14px;
+  }
+}
+
 /* --- */

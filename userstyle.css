@@ -680,4 +680,44 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/(b1d22cc85b51d
   }
 }
 
+/* ---Helenbot tag search embed--------------------------------- */
+
+@-moz-document regexp('https?:\/\/home\.helenbot\.com\/tools\/tagSearch\.php') {
+  body{
+    color: #808080;
+  }
+  a{
+    color: #942828;
+  }
+  span.select2, span.select2-selection{
+    background-color: #292929 !important;
+  }
+  span.select2-dropdown{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #191919;
+    border: 1px solid #808080;
+    color: #942828;
+  }
+  li[aria-selected="true"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #494949 !important;
+    background-origin: padding-box;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    border: 1px solid #808080;
+    color: #aaa;
+  }
+  li.select2-results__option--highlighted{
+    background-color: #193060 !important;
+  }
+  input[type="button"]{
+    background-color: #191919 !important;
+    border: 1px solid #808080 !important;
+    color: #808080 !important;
+  }
+}
+
 /* --- */

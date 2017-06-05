@@ -577,4 +577,12 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "The Gulf Canon Hub--------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/the-gulf') {
+  img[alt="gulflogo.png"]{
+    filter: invert(88.5%) hue-rotate(180deg) saturate(200%)
+  }
+}
+
 /* --- */

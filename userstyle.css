@@ -379,8 +379,13 @@
   }
 
   /* ---Ensures that text meant to be invisible, stays invisible-- */
-  span[style*="color:white"] {
+  span[style*="color:white"], span[style*="color: white"] {
     color: rgba(0, 0, 0, 0) !important;
+  }
+
+  /* ---Pure blue is hard to read due to contrast----------------- */
+  span[style*="color:blue"], span[style*="color: blue"] {
+    color: #7070ff !important;
   }
 
   /* ---Scorpion451's table fix----------------------------------- */

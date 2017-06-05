@@ -474,6 +474,7 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/(b1d22cc85b51d
     color: #808080;
     font-size: 12px;
     text-align: right;
+    line-height: 12px;
   }
 
   a {

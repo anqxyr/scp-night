@@ -377,8 +377,9 @@ regexp('https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/main\/(b1d22cc85b51d1594
 regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/(b1d22cc85b51d15945223af54b75485a71d34523-1453236229275699640|b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516)\/.*scpsandbox2\.wikidot\.com\/') {
 
   body {
-    font-family: "DejaVu Sans Condensed", verdana, arial, helvetica, sans-serif !important;
+    font-family: "Fira Sans", verdana, arial, helvetica, sans-serif !important;
     font-size: 14px;
+    line-height: 14px;
   }
 }
 

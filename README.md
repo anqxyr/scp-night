@@ -49,3 +49,8 @@ Reporting bugs and making suggestions
   - Opening an issue in this repo is the preferred way to report bugs. If you don't have and don't want to make a GitHub account, use the original forum thread instead.
   - The same applies to suggestions.
   - If an issue is related to a specific page or SCP document, prefix the issue with "Page bug: ". There is no need to add the title, but feel free to do so if it's short. Use a descriptive name for the issue please (especially if there's a lot of open issues already).
+
+Known Issues
+------------
+
+  - Certain images are very complicated or impossible to adjust, such as the portraits on ["Hello World"](http://www.scp-wiki.net/hello-world)

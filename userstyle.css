@@ -537,17 +537,6 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
-/* ---Page: "Grant request for [...] science vessel"------------ */
-/* ---No longer applies really, since the page has now been----- */
-/* ---added as an exclusion------------------------------------- */
-
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/grant-request-for-the-construction-of-an-interstellar-scienc') {
-
-  img[alt="DariusDrive4.png"] {
-    filter: invert(87.5%);
-  }
-}
-
 /* ---Page: "Document 1780-WL"---------------------------------- */
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/document-1780-wl') {

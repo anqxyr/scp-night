@@ -585,4 +585,12 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "Unfounded - Hub"----------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/unfounded-hub') {
+  img[alt="UnFounded.png"]{
+    filter: invert(88.5%);
+  }
+}
+
 /* --- */

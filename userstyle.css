@@ -630,4 +630,13 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "Museum of Idiots"---------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/museum-of-idiots') {
+  span[style*="color:#dfdfdf"], span[style*="color:#d9d9d9"], span[style*="color:#868686"]{
+    /* using opacity instead of brightness because of the background texture */
+    filter: invert(88.5%) opacity(65%);
+  }
+}
+
 /* --- */

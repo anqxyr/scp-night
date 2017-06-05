@@ -322,6 +322,27 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'FiraMonoBold';
+  src: url('https://fontlibrary.org/assets/fonts/fira-mono/5b5ff6f7dd31e8f9163b0610dbfe96e8/abbe89bd522af0765f67d19bbef382bd/FiraMonoBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraMonoMedium';
+  src: url('https://fontlibrary.org/assets/fonts/fira-mono/5b5ff6f7dd31e8f9163b0610dbfe96e8/5a5afe3541d5456462a0bcb346fab34d/FiraMonoMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraMonoRegular';
+  src: url('https://fontlibrary.org/assets/fonts/fira-mono/5b5ff6f7dd31e8f9163b0610dbfe96e8/d616f619c088ed9428d76343a2c6b2ed/FiraMonoRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com).*') {
   body {
     font-family: "Fira Sans", "DejaVu Sans Condensed", verdana, arial, helvetica, sans-serif !important;
@@ -357,6 +378,14 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
 
   body {
     font-family: "DejaVu Sans Condensed", verdana, arial, helvetica, sans-serif !important;
+  }
+}
+
+/* ---Page: "Conspiracy, Part I--------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/conspiracy-part-i') {
+  span[style*="color:#880000;"] tt{
+    font-family: "Fira Mono";
   }
 }
 

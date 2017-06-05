@@ -622,4 +622,12 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "Conspiracy, Part I--------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/conspiracy-part-i') {
+  span[style*="color:#880000;"]{
+    color: #b01 !important;
+  }
+}
+
 /* --- */

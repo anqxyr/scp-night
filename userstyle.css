@@ -546,4 +546,25 @@ regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/b1d22cc85b51d1
   }
 }
 
+/* ---Page: "SCP Artwork Hub"----------------------------------- */
+/* ---This is a very crude fix but I don't know of-------------- */
+/* ---a better way to do it that's actually allowed by CSS/SVG-- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-artwork-hub') {
+  img[alt="art_hub_warning1.gif"]{
+    filter: url('data:image/svg+xml;utf8,\
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\
+      <filter id="border-alias-fix" color-interpolation-filters="sRGB">\
+      <feColorMatrix type="matrix" values="0 1 1 0 0\
+                                           0 1 1 0 0\
+                                           0 1 1 0 0\
+                                           0 0 0 1 0" result="selectedColor" />\
+      <feColorMatrix type="luminanceToAlpha" result="selectedColor"/>\
+      <feComposite operator="over" in2="selectedColor"/>\
+      <feComposite operator="clear" in2="SourceGraphic"/>\
+      </filter>\
+      </svg>#border-alias-fix');
+  }
+}
+
 /* --- */

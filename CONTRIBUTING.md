@@ -133,3 +133,15 @@ If you're not experienced with CSS, the following information may be useful to y
     You're probably dealing with an iframe embed. Examples of these are the timer and search widgets. To match them, you need to create a new `@-moz-document` rule and add their url to it. See the styles for the timer widget and search widget fix for examples.
 
     One way to get the url is to Shift + Right Click on the offending part of the page and "Inspect Element". This should open the developer tools. Try to find the parent `iframe` element and check its URL. Test it by pathing to it using the browser - if you get the same widget, you've found it. Make sure the rule you place in the CSS matches the _final_ URL, the one your browser shows when you get there. Redirects and server-side URL rewriting can confuse the matter (though generally this is not the case on wikidot).
+
+  - Bad transparency on images
+
+    Some images have been given a transparent background by wand-selecting it and clearing it to transparency. Since this is done _after_ the text is anti-aliased by the software, it leaves the blended colors intact, tuned for a white background. This is harmless for the original theme but it's very jarring once the background is darkened.
+
+    Optimally the image should be re-generated from the original using a transparent background to begin with, or at least re-edited to correct the error. However that is unlikely to happen for most images, so we're left with just CSS and SVG filters to correct it.
+
+    The current version of the theme has a correction for this on the SCP Artwork Hub. Check `userstyle.css` for the fix. It simply converts the image to greyscale, retains the bright parts, which happen to be the offending pixels as well and then uses those highlights to correct the original. It's not very elegant but it's apparently not possible to combine a mask and filter in the same SVG block embedded in CSS, which would be required for an elegant solution.
+
+    To use this, copy the entire `filter` attribute from the CSS rule and paste it under rules applying to matched images that need the fix. It will very likely need adjusting. Unfortunately this is _not_ a one-size-fits-all solution. If possible, correct the original image.
+
+    _A solution based on edge detection may be attempted later, but it is very unlikely to have optimal or general results._

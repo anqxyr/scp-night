@@ -1,7 +1,7 @@
 SCP Wiki Night Mode
 ===================
 
-This is the repository for the [SCP Wiki Night Mode](https://userstyles.org/styles/118617/scp-wiki-night-mode) userstyle. It is a dark, low-contrast theme for the SCP Wiki, intended to make it easier to read in the dark.
+This is the repository for the [SCP Wiki Night Mode](https://userstyles.org/styles/118617) userstyle. It is a dark, low-contrast theme for the SCP Wiki, intended to make it easier to read in the dark.
 
 Original by [LurkD](http://www.wikidot.com/user:info/lurkd), [anqxyr](http://www.wikidot.com/user:info/anqxyr) and [Crayne](http://www.wikidot.com/user:info/crayne).
 
@@ -16,7 +16,7 @@ The supported way to install the theme is to use [Stylish](https://userstyles.or
 
 _If you use a different browser, you're on your own. However, if you have already figured out how to support a different browser and you think something can be done about it without too much work, feel free to open an issue and make your suggestions._
 
-The recommended way to install the theme is from the [above link on `userstyles.org`](https://userstyles.org/styles/118617/scp-wiki-night-mode). Please use `userstyles.org` to install the main theme - it allows metadata, possible future customization and is easier for everyone.
+The recommended way to install the theme is from the [above link on `userstyles.org`](https://userstyles.org/styles/118617). Please use `userstyles.org` to install the main theme - it allows metadata, possible future customization and is easier for everyone.
 
 This repo also has separate CSS files with optional font changes and fixes for SCP Wiki-related userscripts that can be used separately by manually importing them to Stylish. There are in the `css` directory. To install those:
   - Visit the link on the table that corresponds to the file you want

@@ -1,12 +1,19 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-/*
+/***************************************************************
+ *
+ * SCP Wiki Night Mode 1.1.22 (2017-06-05)
  * Original by LurkD, anqxyr and Crayne, September 2015
+ *
+ * https://github.com/anqxyr/scp-night
+ * https://userstyles.org/styles/118617/
  *
  * This file was restored from the latest version in May 2017 by MechaLynx
  * Blame him for anything removed that was there in the original
  *
- */
+ * Complete changelog and list of contributors is on GitHub
+ *
+ ***************************************************************/
 
 @-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/(sotmhub|all-along|minerva-lifted|moonrakers|pitchmeet|first55|hamibombard1|the-watchtower|dossier-fsf-delivery|component:ijamea-theme|ijamea-hub|osanshouo|marshall-carter-and-dark-hub|an-average-life|mcd-hadrians-well|imperfectly-fossilized-eggs-m4rho-edope-fo5le|iris-dark|mcd-little-draft-horses|mcd-bloodbaths|robert-carter|rogue-ai-nveo4-yvn3e-pn6ug|skitter-marshall|some-rational-inheritance|third-death|two-transcribed-conversations-in-very-different-tones|wills-and-ways-hub|scp-2600-cu|april-fools-2014|scp-006-cu-ex|scp-682-cu|scp-1548-cu|component:3lawtheme|third-law-hub|avatara|a-confluence-of-clandestine-conferences|comedown-machine-hub|grant-request-for-genetically-engineering-low-cost-organic-a|grant-request-for-investigating-the-potential-application-of|grant-request-for-the-construction-of-an-interstellar-scienc|grant-request-for-utilization-of-electro-thaumic-computers-t|hypervelocity|moonlighting|operation-llewyn-dark|permanent-waves|preliminary-report|samsara|the-analog-kid|the-bard-of-ambrose|the-dedekind-infinite-demographic|the-fountain-of-lamneth|t-minus|to-be-noir-not-to-be|under-control)).*') {
 

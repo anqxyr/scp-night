@@ -1,5 +1,18 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+/***************************************************************
+ *
+ * Optional fonts for SCP Wiki Night Mode
+ * Maintained by MechaLynx
+ *
+ * This version will apply regardless of excluded pages
+ * in SCP Wiki Night Mode. If you want exclusions to apply to
+ * these fonts, use `fonts-with-exclusions.css` instead.
+ *
+ * https://github.com/anqxyr/scp-night
+ *
+ ***************************************************************/
+
 @font-face {
   font-family: 'JunctionRegular';
   src: url('https://fontlibrary.org/assets/fonts/junction/f99fa7793abd572cc4e202f8cafa1a28/5bafad23431ca285a292e7404c923437/JunctionRegular.ttf') format('truetype');

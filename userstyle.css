@@ -381,7 +381,8 @@
     background-color: #808080 !important;
   }
 
-  #new-post-form .buttons input {
+  #new-post-form .buttons input,
+  #edit-page-form .buttons input {
     background-color: #808080;
     border: 1px solid #191919;
   }
@@ -389,7 +390,9 @@
   /* ------------------------------------------------------------- */
 
   #np-text,
-  #np-title {
+  #np-title,
+  #edit-page-textarea,
+  #edit-page-title {
     background-color: #D0D0D0 !important;
   }
 

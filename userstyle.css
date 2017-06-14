@@ -226,19 +226,23 @@
     background-color: #191919;
     background-image: none;
     background: none;
-    color: #101010;
+    color: #A0A0A0;
   }
 
   .yui-navset .yui-nav a:hover {
     background-color: #808080;
     background-image: none;
     background: none;
-    color: #101010;
+    color: #A0A0A0;
   }
 
   .yui-navset .yui-content {
     background-color: #808080;
     color: #191919;
+  }
+
+  .yui-navset .yui-nav .selected a, .yui-navset .yui-nav .selected a em{
+   border-color: #A0A0A0;
   }
 
   /* ------------------------------------------------------------- */

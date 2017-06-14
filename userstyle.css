@@ -473,9 +473,7 @@
 
 /* ---License footer fix---------------------------------------- */
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki.(net|wikidot\.com)\/main\/html\/(b1d22cc85b51d15945223af54b75485a71d34523-1453236229275699640|b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516)'),
-regexp('https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/main\/(b1d22cc85b51d15945223af54b75485a71d34523-1453236229275699640|b1d22cc85b51d15945223af54b75485a71d34523-492106717175458516)\/www\.scp-wiki\.(net|\.wikidot\.com)\/'),
-regexp('https?:\/\/scpsandbox2\.wdfiles\.com\/local--html\/start\/(b1d22cc85b51d15945223af54b75485a71d34523-1453236229275699640|b1d22cc85b51d15945223af54b75485a71d34523-4930967401480709276)\/.*scpsandbox2\.wikidot\.com\/') {
+@-moz-document regexp('https?:\/\/(scp-wiki|scpsandbox2).wdfiles\.com\/local--html\/(start|main)\/.*\/(www\.)?(scp-wiki|scpsandbox2)\.(net|wikidot\.com)\/'){
 
   body {
     color: #808080;

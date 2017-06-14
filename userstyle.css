@@ -725,4 +725,12 @@
   }
 }
 
+/* ---Page: "SCP-938-J"-------------------------------------- */
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-938-j') {
+  #page-content div[style*='site48logo.png']{
+    filter: invert(87.5%);
+  }
+}
+
 /* --- */

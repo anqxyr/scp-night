@@ -27,6 +27,8 @@ This repo also has separate CSS files with optional font changes and fixes for S
 :-----:|:-----:|:-----:
 Fonts|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/fonts.css)|A different set of fonts for the wiki
 Fonts (with exclusions)|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/fonts-with-exclusions.css)|The custom fonts but not applied to pages using custom themes
+Alternate edit form colors|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/editforms.css)|A darker style for edit forms
+Alternate edit form colors (with exclusions)|[RawGit](https://rawgit.com/anqxyr/scp-night/master/css/editforms-with-exclusions.css)|Same as above but with exclusions for custom-themed pages
 
 Userscript-related fixes:
 

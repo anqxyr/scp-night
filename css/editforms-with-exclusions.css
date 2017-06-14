@@ -1,0 +1,46 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/***************************************************************
+ *
+ * Alternate theme for edit forms for SCP Wiki Night Mode
+ * Maintained by MechaLynx
+ *
+ * This version will follow the same exclusions as
+ * SCP Wiki Night Mode. If you want the fonts to apply to all
+ * pages regardless of page-specific themes,
+ * use `editforms.css` instead.
+ *
+ * https://github.com/anqxyr/scp-night
+ *
+ ***************************************************************/
+
+@-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com)(?!\/(sotmhub|all-along|minerva-lifted|moonrakers|pitchmeet|first55|hamibombard1|the-watchtower|dossier-fsf-delivery|component:ijamea-theme|ijamea-hub|osanshouo|marshall-carter-and-dark-hub|an-average-life|mcd-hadrians-well|imperfectly-fossilized-eggs-m4rho-edope-fo5le|iris-dark|mcd-little-draft-horses|mcd-bloodbaths|robert-carter|rogue-ai-nveo4-yvn3e-pn6ug|skitter-marshall|some-rational-inheritance|third-death|two-transcribed-conversations-in-very-different-tones|wills-and-ways-hub|scp-2600-cu|april-fools-2014|scp-006-cu-ex|scp-682-cu|scp-1548-cu|component:3lawtheme|third-law-hub|avatara|a-confluence-of-clandestine-conferences|comedown-machine-hub|grant-request-for-genetically-engineering-low-cost-organic-a|grant-request-for-investigating-the-potential-application-of|grant-request-for-the-construction-of-an-interstellar-scienc|grant-request-for-utilization-of-electro-thaumic-computers-t|hypervelocity|moonlighting|operation-llewyn-dark|permanent-waves|preliminary-report|samsara|the-analog-kid|the-bard-of-ambrose|the-dedekind-infinite-demographic|the-fountain-of-lamneth|t-minus|to-be-noir-not-to-be|under-control)).*') {
+  textarea,
+  #lock-info,
+  #np-text,
+  #np-title,
+  #edit-page-textarea,
+  #edit-page-title {
+    color: #808080;
+    background-color: #222 !important;
+  }
+
+  #lock-info{
+    border-color: #808080;
+  }
+
+  #wd-editor-toolbar-panel,
+  #np-editor-panel {
+    filter: invert(75.5%);
+  }
+
+  #edit-page-form .buttons input,
+  #new-post-form .buttons input,
+  .change-textarea-size a{
+    background-color: #191919 !important;
+    border: 1px solid #808080 !important;
+    color: #942828 !important;
+    line-height: 19px !important;
+    padding: 0 8px 0 8px !important;
+  }
+}

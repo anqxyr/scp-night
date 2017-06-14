@@ -1,0 +1,45 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/***************************************************************
+ *
+ * Alternate theme for edit forms for SCP Wiki Night Mode
+ * Maintained by MechaLynx
+ *
+ * This version will apply regardless of excluded pages
+ * in SCP Wiki Night Mode. If you want exclusions to apply to
+ * these fonts, use `editforms-with-exclusions.css` instead.
+ *
+ * https://github.com/anqxyr/scp-night
+ *
+ ***************************************************************/
+
+@-moz-document regexp('https?:\/\/(www.)?(scp-wiki|scpsandbox2)(\.net|\.wikidot\.com).*') {
+  textarea,
+  #lock-info,
+  #np-text,
+  #np-title,
+  #edit-page-textarea,
+  #edit-page-title {
+    color: #808080;
+    background-color: #222 !important;
+  }
+
+  #lock-info{
+    border-color: #808080;
+  }
+
+  #wd-editor-toolbar-panel,
+  #np-editor-panel {
+    filter: invert(75.5%);
+  }
+
+  #edit-page-form .buttons input,
+  #new-post-form .buttons input,
+  .change-textarea-size a{
+    background-color: #191919 !important;
+    border: 1px solid #808080 !important;
+    color: #942828 !important;
+    line-height: 19px !important;
+    padding: 0 8px 0 8px !important;
+  }
+}

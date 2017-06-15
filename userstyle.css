@@ -36,7 +36,7 @@
   }
 
   input[type="button"],
-  input[type="submit"] {
+  input[type="submit"], .owindow .button-bar .btn {
     background-color: #191919;
     border: 1px solid #808080;
     color: #942828;
@@ -448,6 +448,21 @@
   .international-entry:nth-child(even) {
     position: relative;
     z-index: 0;
+  }
+
+  /* ---User info popup------------------------------------------- */
+
+  #owindow-1{
+    background-color: #191919;
+    border-color: #292929;
+  }
+
+  #owindow-1 .title{
+    background-color: #292929;
+  }
+
+  #owindow-1 img{
+    background: none !important;
   }
 
   /* --- */

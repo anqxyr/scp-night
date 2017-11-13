@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.22 (2017-06-05)
+ * SCP Wiki Night Mode 1.1.24 (2017-11-14)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -468,19 +468,15 @@
   /* --- */
 }
 
-/* ---Timer widget fix------------------------------------------ */
-
 @-moz-document url-prefix("http://ferryfm13.thirteen.axc.nl/scp/timers/getTimer.php") {
-
+/* ---Timer widget fix------------------------------------------ */
   #clock {
     color: gold;
   }
 }
 
-/* ---Search widget fix----------------------------------------- */
-
 @-moz-document regexp("https?:\/\/scp-wiki\.wdfiles\.com\/local--html\/search.*(scp-wiki|scpsandbox2)\.(net|wikidot\.com)\/") {
-
+/* ---Search widget fix----------------------------------------- */
   body {
     background-color: rgba(0, 0, 0, 0) !important;
     color: #808080 !important;
@@ -493,10 +489,8 @@
   }
 }
 
-/* ---License footer fix---------------------------------------- */
-
 @-moz-document regexp('https?:\/\/(scp-wiki|scpsandbox2).wdfiles\.com\/local--html\/(start|main)\/.*\/(www\.)?(scp-wiki|scpsandbox2)\.(net|wikidot\.com)\/'){
-
+/* ---License footer fix---------------------------------------- */
   body {
     color: #808080;
     font-size: 12px;
@@ -514,10 +508,8 @@
   }
 }
 
-/* --- Fix for March Madness Hub page --- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scpfmmdbc-hub') {
-
+/* --- Fix for March Madness Hub page --- */
   #page-content>div:before {
     background: inherit;
     content: " ";
@@ -539,10 +531,8 @@
   }
 }
 
-/* ---Contest archive fix--------------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/contest-archive') {
-
+/* ---Contest archive fix--------------------------------------- */
   .content-type-description>table>tbody>tr:nth-child(even)>td {
     background-color: #292929 !important;
   }
@@ -552,19 +542,15 @@
   }
 }
 
-/* ---Page: "About the Serpent"--------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/about-the-serpent') {
-
+/* ---Page: "About the Serpent"--------------------------------- */
   #page-content img[src$="gif"] {
     filter: invert(87.5%);
   }
 }
 
-/* ---Page: "The parables of Pseudo-Nadox"---------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/the-parables-of-pseudo-nadox') {
-
+/* ---Page: "The parables of Pseudo-Nadox"---------------------- */
   #page-content img[alt="the_horizon_initiative_by_sunnyparallax-d8i98ob.jpg"] {
     filter: invert(87.5%);
   }
@@ -574,20 +560,17 @@
   }
 }
 
-/* ---Page: "Document 1780-WL"---------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/document-1780-wl') {
-
+/* ---Page: "Document 1780-WL"---------------------------------- */
   img[alt="Signature%202.PNG"] {
     filter: invert(88.5%);
   }
 }
 
-/* ---Page: "SCP Artwork Hub"----------------------------------- */
-/* ---This is a very crude fix but I don't know of-------------- */
-/* ---a better way to do it that's actually allowed by CSS/SVG-- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-artwork-hub') {
+/* ---Page: "SCP Artwork Hub"-----------------------------------
+ * ---This is a very crude fix but I don't know of--------------
+ * ---a better way to do it that's actually allowed by CSS/SVG-- */
   img[alt="art_hub_warning1.gif"]{
     filter: url('data:image/svg+xml;utf8,\
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\
@@ -604,9 +587,8 @@
   }
 }
 
-/* ---Page: "A Wandsman in the Court of the Hanged King"-------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/a-wandsman-in-the-court-of-the-hanged-king') {
+/* ---Page: "A Wandsman in the Court of the Hanged King"-------- */
   img[alt="0e6fayS.jpg"],
   img[alt="7n5BvR1.jpg"],
   img[alt="6G1MpLa.jpg"]{
@@ -614,66 +596,58 @@
   }
 }
 
-/* ---Page: "The Gulf Canon Hub"-------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/the-gulf') {
+/* ---Page: "The Gulf Canon Hub"-------------------------------- */
   img[alt="gulflogo.png"]{
     filter: invert(88.5%) hue-rotate(180deg) saturate(200%);
   }
 }
 
-/* ---Page: "Unfounded - Hub"----------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/unfounded-hub') {
+/* ---Page: "Unfounded - Hub"----------------------------------- */
   img[alt="UnFounded.png"]{
     filter: invert(88.5%);
   }
 }
 
-/* ---Page: "Elder Baconator"----------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/elder-baconator') {
+/* ---Page: "Elder Baconator"----------------------------------- */
   img[alt="blink.gif"]{
     filter: invert(88.5%);
   }
 }
 
-/* ---Page: "Operation AZURE PEREGRINE"------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/operation-azure-peregrine') {
+/* ---Page: "Operation AZURE PEREGRINE"------------------------- */
   img[alt="letterhead.png"]{
     filter: invert(88.5%);
   }
 }
 
-/* ---Page: "SCP-2897"------------------------------------------ */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2897') {
+/* ---Page: "SCP-2897"------------------------------------------ */
   img[alt="AnalyticsLetterheadFAO3.png"]{
     filter: invert(88.5%) hue-rotate(180deg) saturate(700%);
   }
 }
 
-/* ---Page: "Conspiracy, Part I"-------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/conspiracy-part-i') {
+/* ---Page: "Conspiracy, Part I"-------------------------------- */
   span[style*="color:#880000;"]{
     color: #b01 !important;
   }
 }
 
-/* ---Page: "Museum of Idiots"---------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/museum-of-idiots') {
+/* ---Page: "Museum of Idiots"---------------------------------- */
   span[style*="color:#dfdfdf"], span[style*="color:#d9d9d9"], span[style*="color:#868686"]{
     /* using opacity instead of brightness because of the background texture */
     filter: invert(88.5%) opacity(65%);
   }
 }
 
-/* ---Page: "On Mount Golgotha - Hub"--------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/on-mount-golgotha-hub') {
+/* ---Page: "On Mount Golgotha - Hub"--------------------------- */
   #page-content{
     color: black;
   }
@@ -682,34 +656,30 @@
   }
 }
 
-/* ---Page: "The Lord of Endowments"---------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/the-lord-of-endowments') {
+/* ---Page: "The Lord of Endowments"---------------------------- */
   #page-content{
     color: black;
   }
 }
 
-/* ---Page: "Resurrection"-------------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/resurrection') {
+/* ---Page: "Resurrection"-------------------------------------- */
   #page-content div[style*='#F5F5F5']{
     background: #252525 !important;
   }
 }
 
-/* ---Page: "MEMORANDUM 083 REGARDING PROJECT "GUARDIANSHIP""--- */
-/* ---very crude fix-------------------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/memorandum-083-regarding-project-guardianship') {
+/* ---Page: "MEMORANDUM 083 REGARDING PROJECT "GUARDIANSHIP""---
+ * ---very crude fix-------------------------------------------- */
   img[alt="oria.png"]{
     filter: invert(78.5%) hue-rotate(180deg) saturate(500%) contrast(100%) brightness(50%);
   }
 }
 
-/* ---Helenbot tag search embed--------------------------------- */
-
 @-moz-document regexp('https?:\/\/home\.helenbot\.com\/tools\/tagSearch\.php') {
+/* ---Helenbot tag search embed--------------------------------- */
   body{
     color: #808080;
   }
@@ -747,12 +717,9 @@
   }
 }
 
-/* ---Page: "SCP-938-J"-------------------------------------- */
-
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-938-j') {
+/* ---Page: "SCP-938-J"-------------------------------------- */
   #page-content div[style*='site48logo.png']{
     filter: invert(87.5%);
   }
 }
-
-/* --- */

@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.24 (2017-11-14)
+ * SCP Wiki Night Mode 1.1.25 (2017-11-14)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -721,5 +721,25 @@
 /* ---Page: "SCP-938-J"-------------------------------------- */
   #page-content div[style*='site48logo.png']{
     filter: invert(87.5%);
+  }
+}
+
+@-moz-document regexp('https?:\/\/scpnet\.org\/interwiki\/scp-wiki\/\?lang=en\&page=_default:.*') {
+/* ---Interwiki table------------------------------------------- */
+   .interwiki {
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #191919 !important;
+    color: #808080;
+  }
+  .interwiki .interwiki__title {
+    border-bottom: solid 1px #808080;
+    background-color: #191919;
+    color: #808080;
+  }
+  .interwiki a {
+    color: #942828;
   }
 }

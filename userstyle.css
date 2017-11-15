@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.25 (2017-11-14)
+ * SCP Wiki Night Mode 1.1.26 (2017-11-15)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -724,7 +724,7 @@
   }
 }
 
-@-moz-document regexp('https?:\/\/scpnet\.org\/interwiki\/scp-wiki\/\?lang=en\&page=_default:.*') {
+@-moz-document regexp('https?:\/\/scpnet\.org\/interwiki\/scp-wiki\/.*') {
 /* ---Interwiki table------------------------------------------- */
    .interwiki {
     padding: 10px;

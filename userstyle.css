@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.27 (2017-11-16)
+ * SCP Wiki Night Mode 1.1.28 (2017-11-16)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -976,5 +976,12 @@
 
 	img.image[alt="SPMax.png"]{
 		filter: invert(87.5%);
+	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/personnel-and-character-dossier') {
+/* ---Page: "Personnel And Character Dossier"---------------- */
+	#toc0 span[style="color:white"]{
+		color: white !important;
 	}
 }

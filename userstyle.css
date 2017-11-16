@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.28 (2017-11-16)
+ * SCP Wiki Night Mode 1.1.29 (2017-11-16)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -983,5 +983,12 @@
 /* ---Page: "Personnel And Character Dossier"---------------- */
 	#toc0 span[style="color:white"]{
 		color: white !important;
+	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/recruitment-drive-28126') {
+/* ---Page: "Recruitment Drive (R-28126)"-------------------- */
+	th[style*="background-color: silver"]{
+		background-color: #333 !important;
 	}
 }

@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.29 (2017-11-16)
+ * SCP Wiki Night Mode 1.1.30 (2017-11-16)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -990,5 +990,12 @@
 /* ---Page: "Recruitment Drive (R-28126)"-------------------- */
 	th[style*="background-color: silver"]{
 		background-color: #333 !important;
+	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/secure-facility-dossier-site-77') {
+/* ---Page: "Secure Facility Dossier: Site-77"---------------- */
+	div[style^="background: #FFEBCD;"]{
+		background: #4D391A !important;
 	}
 }

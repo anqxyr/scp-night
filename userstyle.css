@@ -562,7 +562,7 @@
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/document-1780-wl') {
 /* ---Page: "Document 1780-WL"---------------------------------- */
   img[alt="Signature%202.PNG"] {
-    filter: invert(88.5%);
+		filter: hue-rotate(180deg) invert(88.5%) saturate(650%);
   }
 }
 

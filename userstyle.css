@@ -1005,3 +1005,27 @@
     color: hsl(240, 100%, 90%) !important;
   }
 }
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2480') {
+/* ---Page: "SCP-2480"---------------------------------------- */
+	div[style^="background: url(http://scpsandbox2.wikidot.com/local--files/reach/Sitra%20Achra.png)"] {
+		filter: invert(95.5%);
+	}
+	div[style^="background: url(http://scpsandbox2.wikidot.com/local--files/reach/Sitra%20Achra-t.png)"]:before {
+		background: inherit;
+		content: " ";
+		display: block;
+		filter: invert(95.5%);
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: -1;
+	}
+	div[style^="background: url(http://scpsandbox2.wikidot.com/local--files/reach/Sitra%20Achra-t.png)"]{
+		position: relative;
+		z-index: 0;
+		color: #bbb;
+	}
+}

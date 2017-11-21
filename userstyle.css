@@ -1029,3 +1029,10 @@
 		color: #bbb;
 	}
 }
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2608') {
+/* ---Page: "SCP-2608"---------------------------------------- */
+	td span[style="color: red"]{
+		color: hsl(0, 100%, 30%) !important;
+	}
+}

@@ -998,3 +998,10 @@
 		background: #4D391A !important;
 	}
 }
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2317') {
+/* ---Page: "SCP-2317"---------------------------------------- */
+  span[style*="color:blue"], span[style*="color: blue"] {
+    color: hsl(240, 100%, 90%) !important;
+  }
+}

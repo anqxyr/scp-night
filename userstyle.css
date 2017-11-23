@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.38 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.39 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1154,4 +1154,11 @@
 	span:not([style*="color: purple"])[style*="background-color: #ffffff"]{
 		color: #808080 !important;
 	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/i-am-the-organisation') {
+/* ---Page: "I Am The Foundation"----------------------------- */
+  img[alt="uro.jpg"]{
+    filter: invert(87.5%);
+  }
 }

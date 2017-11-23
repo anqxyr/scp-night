@@ -866,110 +866,137 @@
 	}
 
 	img.image[alt^="alex"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-alex);
 		mask: var(--mask-speech-wedge), var(--mask-alex);
 	}
 
 	img.image[alt="alex_cry.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-alex-cry);
 		mask: var(--mask-speech-wedge), var(--mask-alex-cry);
 	}
 
 	img.image[alt="alex_smile.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-alex) -.2px .3px;
 		mask: var(--mask-speech-wedge), var(--mask-alex) -.2px .3px;
 	}
 
 	img.image[alt="alex4.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-alex4);
 		mask: var(--mask-speech-wedge), var(--mask-alex4);
 	}
 
 	img.image[alt="alex_sad1.png"]{
+		-webkit-mask: var(--mask-speech-wedge) -.3px, var(--mask-alex-sad);
 		mask: var(--mask-speech-wedge) -.3px, var(--mask-alex-sad);
 	}
 
 	img.image[alt^="8ball"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-8ball);
 		mask: var(--mask-speech-wedge), var(--mask-8ball);
 	}
 
 	img.image[alt^="bishop"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-bishop);
 		mask: var(--mask-speech-wedge), var(--mask-bishop);
 	}
 
 	img.image[alt="bishop_pray_flip.png"]{
+		-webkit-mask: var(--mask-speech-wedge-bishop), var(--mask-bishop-flip);
 		mask: var(--mask-speech-wedge-bishop), var(--mask-bishop-flip);
 	}
 
 	img.image[alt="girl1.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-girl);
 		mask: var(--mask-speech-wedge), var(--mask-girl);
 	}
 
 	img.image[alt^="grape"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-grape);
 		mask: var(--mask-speech-wedge), var(--mask-grape);
 	}
 
 	img.image[alt="grape_snark.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-grape) -.3px .3px;
 		mask: var(--mask-speech-wedge), var(--mask-grape) -.3px .3px;
 	}
 
 	img.image[alt="grape_mad.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-grape) 0px 2px;
 		mask: var(--mask-speech-wedge), var(--mask-grape) 0px 2px;
 	}
 
 	img.image[alt="grape_sad.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-grape) .6px 3px;
 		mask: var(--mask-speech-wedge), var(--mask-grape) .6px 3px;
 	}
 
 	img.image[alt^="hatbot_plain"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-hatbot);
 		mask: var(--mask-speech-wedge), var(--mask-hatbot);
 	}
 
 	img.image[alt="hatbot_hat.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-hat) 3.6px -1.9px, var(--mask-hatbot-jaw);
 		mask: var(--mask-speech-wedge), var(--mask-hat) 3.6px -1.9px, var(--mask-hatbot-jaw);
 	}
 
 	img.image[alt="hatbot_hat_plain.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-hatbot), var(--mask-hat) 3.6px -1.9px;
 		mask: var(--mask-speech-wedge), var(--mask-hatbot), var(--mask-hat) 3.6px -1.9px;
 	}
 
 	img.image[alt="hatbot1.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-hatbot-jaw);
 		mask: var(--mask-speech-wedge), var(--mask-hatbot-jaw);
 	}
 
 	img.image[alt="mix1.png"]{
+		-webkit-mask: var(--mask-mix1);
 		mask: var(--mask-mix1);
 	}
 
 	img.image[alt="mix2.png"]{
+		-webkit-mask: var(--mask-mix2);
 		mask: var(--mask-mix2);
 	}
 
 	img.image[alt="mix3.png"]{
+		-webkit-mask: var(--mask-mix3);
 		mask: var(--mask-mix3);
 	}
 
 	img.image[alt="mix4.png"]{
+		-webkit-mask: var(--mask-mix4);
 		mask: var(--mask-mix4);
 	}
 
 	img.image[alt^="rook"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-rook);
 		mask: var(--mask-speech-wedge), var(--mask-rook);
 	}
 
 	img.image[alt^="rook_mask"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-rook-mask);
 		mask: var(--mask-speech-wedge), var(--mask-rook-mask);
 	}
 
 	img.image[alt^="thorn"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-thorn);
 		mask: var(--mask-speech-wedge), var(--mask-thorn);
 	}
 
 	img.image[alt="thornhappy.png"],img.image[alt="thorn_sad.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-thorn) -.3px -1.3px;
 		mask: var(--mask-speech-wedge), var(--mask-thorn) -.3px -1.3px;
 	}
 
 	img.image[alt^="thorn_hat"], img.image[alt="smooth_criminal.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-thorn-hat);
 		mask: var(--mask-speech-wedge), var(--mask-thorn-hat);
 	}
 
 	img.image[alt="thorn_hat_mad.png"]{
+		-webkit-mask: var(--mask-speech-wedge), var(--mask-thorn-hat) .3px .3px;
 		mask: var(--mask-speech-wedge), var(--mask-thorn-hat) .3px .3px;
 	}
 

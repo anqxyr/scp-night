@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.41 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.42 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1008,6 +1008,14 @@
 
 	img.image[alt="SPMax.png"]{
 		filter: invert(87.5%);
+	}
+}
+
+@-moz-document url('http://scp-wiki.wdfiles.com/local--files/hello-world-part-iv/Untitled.txt'){
+	body{
+		background-color: #191919;
+		color: #808080;
+		font-family: monospace;
 	}
 }
 

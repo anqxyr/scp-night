@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.39 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.40 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1159,6 +1159,13 @@
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/i-am-the-organisation') {
 /* ---Page: "I Am The Foundation"----------------------------- */
   img[alt="uro.jpg"]{
+    filter: invert(87.5%);
+  }
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/black-lotus') {
+/* ---Page: "Black Lotus"------------------------------------- */
+  img[alt="op.png"]{
     filter: invert(87.5%);
   }
 }

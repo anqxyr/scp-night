@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.42 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.43 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1186,4 +1186,20 @@
 	div[style*="background:#EEF6EE"]{
 		background: hsl(120, 5%, 20%) !important;
 	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2284') {
+	td[style*="background-color: #FFFFFF"], div[style*="background:#F5F5F5"]{
+		background-color: #191919 !important;
+	}
+	div[style*="background:#ffb6c1"]{
+		background: hsl(351, 20%, 20%) !important;
+	}
+	span[style="background-color:aqua;"]{
+		background-color: hsl(180, 20%, 15%) !important;
+	}
+	span[style="background-color:pink;"]{
+		background-color: hsl(350, 20%, 25%) !important;
+	}
+	/* The buttom images have been deliberately left unmodified */
 }

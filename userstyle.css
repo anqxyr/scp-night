@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.40 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.41 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1168,4 +1168,14 @@
   img[alt="op.png"]{
     filter: invert(87.5%);
   }
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/hello-i-am-an-eldritch-horror') {
+/* ---Page: "Hello, I Am an Eldritch Horror"------------------ */
+	div[style*="background:#DDEEDD"]{
+		background: hsl(120, 20%, 10%) !important;
+	}
+	div[style*="background:#EEF6EE"]{
+		background: hsl(120, 5%, 20%) !important;
+	}
 }

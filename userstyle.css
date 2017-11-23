@@ -714,6 +714,12 @@
     border: 1px solid #808080 !important;
     color: #808080 !important;
   }
+  input[type="search"]{
+    color: #808080 !important;
+  }
+  .select2-selection__choice{
+    color: #191919;
+  }
 }
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-938-j') {

@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.35 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.36 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1118,5 +1118,17 @@
 	div[style*="background-color: #fafafa"], div[style*="background-color: #fff"]{
 		background-color: #191919 !important;
 		box-shadow: 1px 1px 1px 1px #545454 !important;
+	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/old-kansas-sector-part-10') {
+/* ---Page: "Old Kansas Sector ~ 10: Envelope Logistics®"----- */
+	div[style*="background-color: #fff"]{
+		background-color: #191919 !important;
+	}
+	span[style*="background-color: blue"]{
+		background-color: hsl(240, 60%, 30%) !important;
+		/* main style overrides this color, so it needs readjusting */
+		color: hsl(240, 100%, 80%) !important;
 	}
 }

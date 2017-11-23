@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.43 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.44 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1115,7 +1115,7 @@
   }
 }
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/(number-27-oneiroi-station|a-breath-of-relief-no-different-from-drowning)') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/(xiupania|number-27-oneiroi-station|a-breath-of-relief-no-different-from-drowning)') {
 /* ---Page: "Number 27, Oneiroi Station"----------------------
    ---Page: "A Breath Of Relief No Different From Drowning"--- */
 	img[alt="OW_tl.png"], img[alt="FalseTower.png"]{
@@ -1142,7 +1142,7 @@
 	}
 }
 
-@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/oneiroi(\/p\/1|\/p\/2)?') {
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/(xiupania|oneiroi(\/p\/1|\/p\/2)?)') {
 /* ---Page: "Oneiroi Group of Interest Hub"------------------- */
 	img[alt="OneroiGardens2.png"]{
 		filter: invert(87.5%) hue-rotate(180deg) saturate(200%) brightness(62%) contrast(1200%);
@@ -1162,6 +1162,15 @@
 	span:not([style*="color: purple"])[style*="background-color: #ffffff"]{
 		color: #808080 !important;
 	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/xiupania') {
+  #page-content > div:nth-child(7) > span:nth-child(1), #page-content > div:nth-child(7) > p:nth-child(1) > span:nth-child(1){
+    background-color: #0000 !important;
+  }
+  img[alt="bass.png"]{
+    filter: invert(87.5%);
+  }
 }
 
 @-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/i-am-the-organisation') {

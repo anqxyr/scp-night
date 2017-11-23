@@ -1093,3 +1093,10 @@
     z-index: -1;
   }
 }
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/scp-2521') {
+/* ---Page: "SCP-2521"---------------------------------------- */
+  img[alt="scp.png"], img[alt="camera_icon.png"]{
+    filter: invert(87.5%);
+  }
+}

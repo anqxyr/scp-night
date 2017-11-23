@@ -2,7 +2,7 @@
 
 /***************************************************************
  *
- * SCP Wiki Night Mode 1.1.36 (2017-11-23)
+ * SCP Wiki Night Mode 1.1.37 (2017-11-23)
  * Original by LurkD, anqxyr and Crayne, September 2015
  *
  * https://github.com/anqxyr/scp-night
@@ -1130,5 +1130,27 @@
 		background-color: hsl(240, 60%, 30%) !important;
 		/* main style overrides this color, so it needs readjusting */
 		color: hsl(240, 100%, 80%) !important;
+	}
+}
+
+@-moz-document regexp('https?:\/\/(www.)?scp-wiki\.(net|wikidot\.com)\/oneiroi(\/p\/1|\/p\/2)?') {
+/* ---Page: "Oneiroi Group of Interest Hub"------------------- */
+	img[alt="OneroiGardens2.png"]{
+		filter: invert(87.5%) hue-rotate(180deg) saturate(200%) brightness(62%) contrast(1200%);
+	}
+	span[style="color: black"]{
+		color: #808080 !important;
+	}
+	#page-content > div:nth-child(4) > span:nth-child(1), #page-content > div:nth-child(4) > span:nth-child(1) span{
+		background-color: #0000 !important;
+	}
+	div[style*="background-color: #fff"]{
+		background-color: #191919 !important;
+	}
+	span[style*="background-color: #ffffff"]{
+		background-color: #0000 !important;
+	}
+	span:not([style*="color: purple"])[style*="background-color: #ffffff"]{
+		color: #808080 !important;
 	}
 }

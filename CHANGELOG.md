@@ -1,5 +1,36 @@
 # Change Log
 
+## 1.1.45 - 2017-11-29
+### Fixed
+  - Pages:
+    - [SCP-938-J](http://www.scp-wiki.net/scp-938-j)
+    - ["Hello World" Parts I-IV](http://www.scp-wiki.net/hello-world)
+    - ["Personnel And Character Dossier"](http://www.scp-wiki.net/personnel-and-character-dossier)
+    - ["Recruitment Drive (R-28126)"](http://www.scp-wiki.net/recruitment-drive-28126)
+    - ["Secure Facility Dossier: Site-77"](http://www.scp-wiki.net/secure-facility-dossier-site-77)
+    - [SCP-2317](http://www.scp-wiki.net/scp-2317)
+    - [SCP-2480](http://www.scp-wiki.net/scp-2480)
+    - [SCP-2608](http://www.scp-wiki.net/scp-2608)
+    - ["Gamers Against Weed Hub"](http://www.scp-wiki.net/gamers-against-weed-hub)
+    - [SCP-2521](http://www.scp-wiki.net/scp-2521)
+    - ["Number 27, Oneiroi Station"](http://www.scp-wiki.net/number-27-oneiroi-station)
+    - ["Old Kansas Setor ~ 10: Envelope Logistics®"](http://www.scp-wiki.net/old-kansas-sector-part-10)
+    - ["Oneiroi Group of Interest Hub"](http://www.scp-wiki.net/oneiroi)
+    - ["A Breath Of Relief No Different From Drowning"](http://www.scp-wiki.net/a-breath-of-relief-no-different-from-drowning)
+    - ["I Am The Foundation"](http://www.scp-wiki.net/i-am-the-organisation)
+    - ["Black Lotus"](http://www.scp-wiki.net/black-lotus)
+    - ["Hello, I Am an Eldritch Horror"](http://www.scp-wiki.net/hello-i-am-an-eldritch-horror)
+    - [SCP-2284](http://www.scp-wiki.net/scp-2284)
+    - ["#Xiupania"](http://www.scp-wiki.net/xiupania)
+    - Improvied fix for ["Document 1780-WL"](http://www.scp-wiki.net/document-1780-wl)
+
+  - License footer (again)
+  - Tab link colors
+  - Interwiki table
+
+### Added
+  - Preliminary support for all international, sandbox, staff and sister sites
+
 ## 1.1.22 - 2017-06-05
 ### Fixed
   - Pages:
